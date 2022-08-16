@@ -1,0 +1,10 @@
+_form.init({
+	formId: "mainForm",
+	focusId: "email",
+	before: function() {
+		activeLoader(true);
+	},
+	after: function() {
+		activeLoader(false);
+	}
+});

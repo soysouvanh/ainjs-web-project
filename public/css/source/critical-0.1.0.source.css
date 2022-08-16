@@ -1,0 +1,36 @@
+header > p, nav#menu > p, footer > p {
+	margin: 0;
+}
+header .suffix {
+	font-size: 6em;
+	margin-left: -.3em;
+	position: relative;
+	top: -.2em;
+	color: #000;
+}
+nav, main, footer {
+	padding: 1em;
+}
+header, nav#menu {
+	text-align: center;
+}
+header, nav#menu, footer {
+	background: rgba(67,133,61,.1);
+}
+header {
+	height: 128px;
+	padding-top: 1em;
+}
+/*
+nav#menu {
+	
+}
+nav#breadcrumb {
+	
+}
+main {
+
+}
+footer {
+	
+}*/

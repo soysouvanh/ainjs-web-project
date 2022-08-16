@@ -1,0 +1,23 @@
+/*body, header, nav, footer {
+	max-width: 1280px;
+}*/
+main, #breadcrumb {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+nav > ul, nav > ol {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	list-style-type: none;
+	float: left;
+}
+#menuButton {
+	display: none;
+}
+#breadcrumb li:not(:first-child):before {
+	content: "›";
+	display: inline-block;
+	margin: 0 .5em;
+}

@@ -1,0 +1,31 @@
+body {
+	overflow-x: hidden;/*avoid horizontal scroll bar*/
+	font: 1em verdana,arial,helvetica,sans-serif;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+img {
+	border: 0;
+}
+fieldset p {
+	margin: 0;
+	padding: .5em
+}
+label {
+	display: inline-block;
+}
+input[type="radio"] {
+	margin-right: .5em;
+}
+#menu a {
+	display: inline-block;
+	white-space: nowrap;
+	padding: .5em 1em;
+}
+#footer {
+	text-align: center;
+}

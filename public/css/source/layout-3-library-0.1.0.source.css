@@ -1,0 +1,26 @@
+.hidden {
+	display: none !important;
+}
+.nowrap {
+    white-space: nowrap;
+}
+.nl:before, .nl:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.notice {
+	font-style: italic;
+	font-size: .7rem;
+}
+.notice > sup {
+	font-size: initial;
+}
+.center {
+	text-align: center;
+}
+.underline {
+	text-decoration: underline;
+}
